@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container {
+  height: calc(100vh - 48px);
+  overflow-y: hidden;
+}
+
+.bookstore-container {
+  height: calc(100vh - 350px);
+  overflow-y: auto;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  background-color: #eaeaea;
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #eaeaea;
+}
